@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { increment,decrement,reset } from '../redux/counterSlice';
-import { blue } from '@mui/material/colors';
 
 function Counter() {
   const [range,setRange]=useState(1)
